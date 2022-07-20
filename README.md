@@ -19,3 +19,7 @@ User appuser
 Port 22
 HostName 10.128.0.30 (мой внутренний IP)
 ProxyJump bastion
+
+конфигурационный файл для подключения к VPN - cloud-bastion.ovpn
+bastion_IP = 51.250.7.124
+someinternalhost_IP = 10.128.0.30
