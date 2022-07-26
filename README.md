@@ -1,7 +1,7 @@
 # Rezus2all_infra
 Rezus2all Infra repository
 
----4 Локальное окружение инженера. ChatOps и визуализация рабочих процессов. Командная работа с Git. Работа в GitHub---
+--- 4 Локальное окружение инженера. ChatOps и визуализация рабочих процессов. Командная работа с Git. Работа в GitHub---
 
 Исследовать способ подключения к someinternalhost в одну команду из вашего рабочего устройства:
 ssh -i ~/.ssh/appuser -A -tt appuser@51.250.7.124 ssh 10.128.0.30
@@ -23,3 +23,8 @@ ProxyJump bastion
 конфигурационный файл для подключения к VPN - cloud-bastion.ovpn
 bastion_IP = 51.250.7.124
 someinternalhost_IP = 10.128.0.30
+
+--- 5 Основные сервисы Yandex Cloud 
+
+testapp_IP = 51.250.73.231
+testapp_port = 9292
