@@ -1,0 +1,23 @@
+[33mcommit bacdb64477b87a81c09975085b64c01259068c5b[m[33m ([m[1;36mHEAD -> [m[1;32mplay-travis[m[33m, [m[1;31morigin/play-travis[m[33m)[m
+Author: Akhmet Shabakaev <ashabakaev@rencredit.ru>
+Date:   Wed Jul 13 00:04:01 2022 +0300
+
+    3
+
+[33mcommit 9d4f6ca2bc8bd2f6693ed81b0bad7a4b419121c6[m
+Author: Akhmet Shabakaev <ashabakaev@rencredit.ru>
+Date:   Wed Jul 13 00:03:10 2022 +0300
+
+    Add PR template
+
+[33mcommit b7860f5fa8ace9f3412e186567010e6213206cff[m
+Author: Akhmet Shabakaev <ashabakaev@rencredit.ru>
+Date:   Mon Jul 11 22:57:04 2022 +0300
+
+    1
+
+[33mcommit 6569fd65d26a43ac16482bc449e555f4e6138e92[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/cloud-bastion[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mcloud-bastion[m[33m)[m
+Author: Vladimir Drozdetskiy <34331259+mrgreyves@users.noreply.github.com>
+Date:   Sat Jul 9 12:23:20 2022 +0300
+
+    Initial commit
