@@ -24,7 +24,9 @@ ProxyJump bastion
 bastion_IP = 51.250.7.124
 someinternalhost_IP = 10.128.0.30
 
---- 5 Основные сервисы Yandex Cloud 
+--- 5 Основные сервисы Yandex Cloud ---
 
 testapp_IP = 51.250.73.231
 testapp_port = 9292
+
+--- 6 Сборка образов VM при помощи Packer ---
