@@ -2,6 +2,7 @@ variable cloud_id {
   description = "Cloud"
   default = ""
 }
+
 variable folder_id {
   description = "Folder"
 }
@@ -36,6 +37,7 @@ variable instance_count {
   description = "count instances"
   default     = 1
 }
+
 variable app_disk_image {
   description = "Disk image for reddit app"
   default = "reddit-app-base"
