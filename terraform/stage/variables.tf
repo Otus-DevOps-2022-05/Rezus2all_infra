@@ -2,7 +2,6 @@ variable cloud_id {
   description = "Cloud"
   default = ""
 }
-
 variable folder_id {
   description = "Folder"
 }
@@ -37,7 +36,6 @@ variable instance_count {
   description = "count instances"
   default     = 1
 }
-
 variable app_disk_image {
   description = "Disk image for reddit app"
   default = "reddit-app-base"
@@ -54,4 +52,8 @@ variable "s3_secret_key" {
 }
 variable "bucket_name" {
   description = "Name of backet"
+}
+variable enable_provision {
+  description = "Enable provisioner"
+  default     = true
 }
