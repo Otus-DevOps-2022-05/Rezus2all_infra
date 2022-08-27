@@ -1,6 +1,8 @@
 variable cloud_id {
   description = "Cloud"
+  default = ""
 }
+
 variable folder_id {
   description = "Folder"
 }
@@ -34,4 +36,22 @@ variable service_account_key_file {
 variable instance_count {
   description = "count instances"
   default     = 1
+}
+
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default = "reddit-app-base"
+}
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default = "reddit-db-base"
+}
+variable "s3_access_key" {
+  description = "Object storage access key"
+}
+variable "s3_secret_key" {
+  description = "Object storage secret key"
+}
+variable "bucket_name" {
+  description = "Name of backet"
 }
