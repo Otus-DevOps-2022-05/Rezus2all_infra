@@ -44,16 +44,16 @@ variable db_disk_image {
   description = "Disk image for reddit db"
   default = "reddit-db-base"
 }
-variable "s3_access_key" {
-  description = "Object storage access key"
-}
-variable "s3_secret_key" {
-  description = "Object storage secret key"
-}
-variable "bucket_name" {
-  description = "Name of backet"
-}
-variable enable_provision {
-  description = "Enable provisioner"
-  default     = true
-}
+#variable "s3_access_key" {
+#  description = "Object storage access key"
+#}
+#variable "s3_secret_key" {
+#  description = "Object storage secret key"
+#}
+#variable "bucket_name" {
+#  description = "Name of backet"
+#}
+#variable enable_provision {
+#  description = "Enable provisioner"
+#  default     = true
+#}

@@ -3,7 +3,7 @@ terraform {
     endpoint   = "storage.yandexcloud.net"
     bucket     = "terraform-rb"
     region     = "ru-central1"
-    key        = "stage/terraform.tfstate"
+    key        = "stage/.terraform/terraform.tfstate"
     access_key = "YCAJE2OyTLQWC05A52nAMeIyM"
     secret_key = "YCPHbdOoNgo4UgWzRCZCcnJY6Q6WUubWWOSfP2tP"
 
